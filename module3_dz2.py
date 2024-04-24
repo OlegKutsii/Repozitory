@@ -11,6 +11,7 @@ def get_numbers_ticket (min_value, max_value, quantity):
         return sorted(list(result_array))
     except ValueError:
         return list ()
+    
 lottery_numbers = get_numbers_ticket(50, 100, 8)
    
 if __name__ == '__main__':
