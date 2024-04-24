@@ -11,9 +11,11 @@ def get_numbers_ticket (min_value, max_value, quantity):
         return sorted(list(result_array))
     except ValueError:
         return list ()
-def main():
-    lottery_numbers = get_numbers_ticket(1, 10, 5)
-    print("Your lottery numbers:", lottery_numbers)
-
+lottery_numbers = get_numbers_ticket(50, 100, 8)
+   
 if __name__ == '__main__':
-    main()
+    lottery_numbers = get_numbers_ticket(50, 100, 8)
+    print("Your lottery numbers:", lottery_numbers)
+    
+    
+    
