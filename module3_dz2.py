@@ -6,7 +6,7 @@ def get_numbers_ticket (min_value, max_value, quantity):
     try:
         while len(result_array) != quantity:
             result_array.add(randint(min_value, max_value))
-            if max_value - min_value <= quantity:
+            if max_value - min_value < quantity:
                return list() 
         return sorted(list(result_array))
     except ValueError:
